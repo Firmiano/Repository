@@ -1,6 +1,6 @@
 ﻿using Data.Domain;
-using Data.Repository.Base;
-using Data.Repository.Interfaces;
+using Data.Repositories.Base;
+using Data.Repositories.Interfaces;
 using MongoDB.Driver;
 
 namespace Data.Repositories.Repository

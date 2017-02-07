@@ -58,11 +58,11 @@
   <ItemGroup>
     <Compile Include="Domain\DocumentBase.cs" />
     <Compile Include="Domain\Usuario.cs" />
-    <Compile Include="Repository\Interfaces\IUsuarioRepository.cs" />
-    <Compile Include="Repository\UsuarioRepository.cs" />
-    <Compile Include="Repository\Base\Interfaces\IRepositoryBase.cs" />
+    <Compile Include="Repositories\Interfaces\IUsuarioRepository.cs" />
+    <Compile Include="Repositories\Repository\UsuarioRepository.cs" />
+    <Compile Include="Repositories\Base\Interfaces\IRepositoryBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\Base\MongoRepositoryBase.cs" />
+    <Compile Include="Repositories\Base\MongoRepositoryBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

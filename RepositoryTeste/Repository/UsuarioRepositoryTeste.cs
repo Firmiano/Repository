@@ -1,6 +1,6 @@
 ﻿using System;
 using Data.Domain;
-using Data.Repository.Interfaces;
+using Data.Repositories.Interfaces;
 using IoC;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SimpleInjector;
